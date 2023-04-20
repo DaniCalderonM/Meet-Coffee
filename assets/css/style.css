@@ -1,0 +1,130 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+background: #000f08;
+padding: 12px 0 12px 0;
+}
+
+li{
+  display: inline;  
+  vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.icono svg {
+    width: 2rem;
+fill: #ffffff;
+vertical-align: middle;
+margin-left: 75px;
+}
+
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #ffffff;
+    text-align: right;
+    padding: 100px 100px 150px 400px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h2{
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.85;
+}
+
+.lugar {
+    text-align: center;
+    padding: 100px;
+}
+
+.lugar img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.lugar h2 {
+    font-size: 30px;
+}
+
+.lugar p {
+    padding: 15px 350px ;
+}
+
+#Proxima-Charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#Proxima-Charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+    border-radius: 4%;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ .eventos-anteriores {
+    text-align: center;
+    padding: 100px;
+}
+
+ /* .eventos-anteriores div {
+    display: inline-block;
+} */
+
+/* .eventos-anteriores h2 {
+    font-size:  30px;
+    margin-bottom: 30px;
+} */
+
+/* .eventos-anteriores h3 {
+font-size: 22px;
+margin-top: 20px;
+} */
+
+.eventos-anteriores img {
+width: 70%;
+border-radius: 4%;
+}  
+
+footer {
+    text-align: center;
+    background-color: #000f08;
+    color:#ffffff;
+    padding: 30px;
+}
+
+footer i {
+    margin: 0 10px 20px 0;
+}
